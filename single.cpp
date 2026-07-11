@@ -3,7 +3,8 @@ using namespace std;
 
 class base
 {
-    public:int i,j;
+    public:
+        int i,j;
 
     void fun()
     {
@@ -22,6 +23,7 @@ class derived:public base
             cout<<"inside derived gun\n";
         }
 };
+
 int main()
 {
     derived dobj;
